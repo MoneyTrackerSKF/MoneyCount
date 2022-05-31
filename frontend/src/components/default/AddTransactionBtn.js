@@ -8,4 +8,5 @@ const AddTransactionBtn = (props) => {
     </div>
   );
 };
+
 export default AddTransactionBtn;

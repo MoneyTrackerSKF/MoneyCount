@@ -1,3 +1,5 @@
+// import iconGray from './../../assets/img/icon-gray.svg';
+
 const Empty = (props) => {
     return (
         <div className={`nouser-container ${props.className ? props.className : '' }`}>
@@ -6,4 +8,5 @@ const Empty = (props) => {
         </div>
     );
 }
+
 export default Empty;

@@ -1,5 +1,6 @@
 from rest_framework import generics
 from .serializers import PostSerializer
+from django.http import JsonResponse
 from .models import Post
 
 class PostList(generics.ListAPIView):

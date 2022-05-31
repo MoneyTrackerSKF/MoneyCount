@@ -19,7 +19,7 @@ class Migration(migrations.Migration):
                 ('name', models.CharField(db_index=True, default='Anonymous', max_length=14, verbose_name='Name')),
                 ('body', models.CharField(db_index=True, max_length=140, verbose_name='Body')),
                 ('image', cloudinary.models.CloudinaryField(blank=True, max_length=255, null=True, verbose_name='image')),
-                ('like_count', models.PositiveIntegerField(blank=True, default=0, verbose_name='Like Count')),
+                ('transaction_count', models.PositiveIntegerField(blank=True, default=0, verbose_name='Transaction Count')),
                 ('created_at', models.DateTimeField(auto_now_add=True, verbose_name='Created Datetime')),
                 ('updated_at', models.DateTimeField(auto_now=True, verbose_name='Updated Datetime')),
             ],

@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from 'react';
+
 export default function PieChart(props) {
     let prevDeg = 0
     let [selectedCategory, setSelectedCategory] = useState(100);
     useEffect(() => {
         setSelectedCategory(props.data.data[0] ? props.data.data[0].total_amount_percent.toFixed(1) : 100)
     }, [props.data.data])
+
     return (
         <div className="pieContainer">
             <div className="pieBackground">
@@ -43,6 +45,7 @@ export default function PieChart(props) {
                                 </div>
                             )
                         }
+
                     })
                 }
             </div>
