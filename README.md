@@ -1,7 +1,7 @@
 # Money-Count in React & Redux + Django
 
 ```
-Money-Tracker, with a frontend built in React & Redux and a backend built in Django API.
+Money-Count, with a frontend built in React & Redux and a backend built in Django API.
 ```
 
 ## Live Demo
